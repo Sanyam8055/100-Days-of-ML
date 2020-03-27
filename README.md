@@ -11,4 +11,6 @@
 - Implemented a Resnet20 for Multi-class classification on CIFAR100 dataset.
 - Tweaked the Learning rate by applying LR reducer and LR scheduler.
 ## Day 3 (27-03-20) : Neural Style Transfer 
-- 
+- Runs on custom Image with an custom filter
+- Flexible to iterate over time 
+- Tweaked loss function 
