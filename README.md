@@ -10,3 +10,5 @@
 ## Day 2 (26-03-20) : Multi-class Classification
 - Implemented a Resnet20 for Multi-class classification on CIFAR100 dataset.
 - Tweaked the Learning rate by applying LR reducer and LR scheduler.
+## Day 3 (27-03-20) : Neural Style Transfer 
+- 
