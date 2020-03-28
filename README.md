@@ -14,3 +14,6 @@
 - Runs on custom Image with an custom filter
 - Flexible to iterate over time 
 - Tweaked loss function 
+## Day 4 (28-03-20) : Binary Person Classifier 
+- Extracts important featuers from different datasets
+- Identifies on a large variety of user-defined dataset
