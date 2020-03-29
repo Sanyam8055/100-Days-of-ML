@@ -17,3 +17,4 @@
 ## Day 4 (28-03-20) : Binary Person Classifier 
 - Extracts important featuers from different datasets
 - Identifies on a large variety of user-defined dataset
+## Day 5 (28-03-20) : Keras Implementation of Custom Loss Function
