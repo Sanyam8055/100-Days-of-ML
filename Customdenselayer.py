@@ -11,26 +11,24 @@ from tensorflow.python.keras.engine.base_layer import Layer
 from tensorflow.python.keras.engine.input_spec import InputSpec
 from tensorflow.python.util.tf_export import keras_export
 
-@keras_export('keras.layers.MyDense')
-class MyDenseLayer(tf.keras.layers.Layer):
+@keras_export('keras.layers.SNNDense')  
+class SNNDense(tf.keras.layers.Layer):
   def __init__(self,
-		units,
-		num_layers,
-       		activation=selu(input_tensor),
-		kernel_initializer='lecun_uniform', 
+		            units,
+                rate=1e-2,
+       	      	activation=selu(input),
+	            	kernel_initializer='lecun_uniform', 
 	        **kwargs):
     if 'input_shape' not in kwargs and 'input_dim' in kwargs:
       kwargs['input_shape'] = (kwargs.pop('input_dim'),)
 
-    super(MyDenseLayer, self).__init__()
+    super(SNNDense, self).__init__()
     self.units = int(units) if not isinstance(units, int) else units
     self.activation = activations.get(activation)
     self.kernel_initializer = initializers.get(kernel_initializer)
-    self.num_layers = num_layers.get(num_layer)
     self.input_spec = InputSpec(min_ndim=2)
-    
-  def build(self, input_shape):
 
+  def build(self, input_shape):
   input_shape = tensor_shape.TensorShape(input_shape)
   last_dim = tensor_shape.dimension_value(input_shape[-1])
   self.input_spec = InputSpec(min_ndim=2, axes={-1: last_dim})
@@ -42,6 +40,7 @@ class MyDenseLayer(tf.keras.layers.Layer):
         trainable=True)
 
   def call(self, input):
+    self.add_loss(self.rate * tf.reduce_sum(inputs))
     rank = inputs.shape.rank
     if rank is not None and rank > 2:
 	  outputs = standard_ops.tensordot(inputs, self.kernel, [[rank - 1], [0]])
@@ -56,7 +55,7 @@ class MyDenseLayer(tf.keras.layers.Layer):
       else:
         outputs = gen_math_ops.mat_mul(inputs, self.kernel)
     if self.activation is not None:
-      return self.activation(outputs)  # pylint: disable=not-callable
+      return self.activation(outputs) 
     return outputs
 
   def compute_output_shape(self, input_shape):
@@ -67,3 +66,12 @@ class MyDenseLayer(tf.keras.layers.Layer):
           'The innermost dimension of input_shape must be defined, but saw: %s'
           % input_shape)
     return input_shape[:-1].concatenate(self.units)
+
+  def get_config(self):
+    config = {
+        'units': self.units,
+        'activation': activations.serialize(self.activation),
+        'kernel_initializer': initializers.serialize(self.kernel_initializer),
+    }
+    base_config = super(SNNDense, self).get_config()
+    return dict(list(base_config.items()) + list(config.items()))
