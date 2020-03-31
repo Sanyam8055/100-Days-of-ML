@@ -22,3 +22,5 @@
 ## Day 6 (30-03-20) : Keras Implementation of Custom Layer
 - Custom layer with lecum_uniform and selu activation
 - Specifically for SNN 
+## Day 7 (31-03-20) : Custom model for cifar10
+- Model achieves an accuracy of 83 percent under 50 epochs without using dense layers.
