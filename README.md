@@ -26,6 +26,10 @@
 ## Day 7 (31-03-20) : Custom model for cifar10
 - Model achieves an accuracy of 83 percent under 50 epochs without using dense layers.
 ## Day 8 (01-04-20) : Music Generation using RNN
-- Implemented a custom music generator using Recurrent Neural Network
+- Preprocessed the songs into vectorized text for the model
+- Build a Recurrent neural network with LSTM and dense 
+- Customized the loss function for the model
 ## Day 9 (2-04-20) : Customized Music Generation 
-- Customized the loss function, tweaked the batch size and improved the accuracy
+- Customized the optimizer by hyperparameter tunning followed by tweaking the tape gradients 
+- Tweaked the batch size,  changing the starting_string and altering the rnn_units
+- Reduced the loss from scalar 4.4 to 0.5
