@@ -24,12 +24,17 @@
 - Specifically for SNN 
 - Uses recursive loss to evaluate loss that going through the layer.
 ## Day 7 (31-03-20) : Custom model for cifar10
-- Model achieves an accuracy of 83 percent under 50 epochs without using dense layers.
+- Model achieves an accuracy of 83 percent under 50 epochs
+- Model is built up of convolutional layers with any involvement of dense layers
 ## Day 8 (01-04-20) : Music Generation using RNN
 - Preprocessed the songs into vectorized text for the model
 - Build a Recurrent neural network with LSTM and dense 
 - Customized the loss function for the model
-## Day 9 (2-04-20) : Customized Music Generation 
+## Day 9 (02-04-20) : Customized Music Generation 
 - Customized the optimizer by hyperparameter tunning followed by tweaking the tape gradients 
 - Tweaked the batch size,  changing the starting_string and altering the rnn_units
 - Reduced the loss from scalar 4.4 to 0.5
+## Day 10 (03-04-20) : CNN on MNIST dataset
+- Implemented a convolution neural network on MNIST handwritting dataset
+- Using tape gradients concluded with the backpropogation
+- Sidewise compared the cnn_model with full connected model
