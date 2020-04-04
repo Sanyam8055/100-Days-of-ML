@@ -38,3 +38,7 @@
 - Implemented a convolution neural network on MNIST handwritting dataset
 - Using tape gradients concluded with the backpropogation
 - Sidewise compared the cnn_model with full connected model
+## Day 11 (04-04-20) : Variational Autoencoder 
+- Build a facial detection model that learns form latent variables underlying face image dataset
+- Adaptively re-sample the training data
+- Mtigating any biases that may be present in order to train a debiased model
