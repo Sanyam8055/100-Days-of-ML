@@ -42,3 +42,7 @@
 - Build a facial detection model that learns form latent variables underlying face image dataset
 - Adaptively re-sample the training data
 - Mtigating any biases that may be present in order to train a debiased model
+## Day 12 (05-04-20) : Optimized Variational Autoencoder 
+- Tweaked the model while reducing the learning rate.
+- Trained the model for longer num_cycles
+- Better predictions on test dataset with optimum probality without any bias 
