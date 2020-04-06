@@ -46,3 +46,6 @@
 - Tweaked the model while reducing the learning rate.
 - Trained the model for longer num_cycles
 - Better predictions on test dataset with optimum probality without any bias 
+## Day 13 (06-04-20) : Cartpole through Reinforcement Learning 
+-  The main objective of cartpole is to balance a rod kept on a subject while completely moving the surface within 2.4 units from the centre.
+- Implemented MIT 6.S191 Lab 3 Cartpole with total reward of 200 under 1000 iterations
