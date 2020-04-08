@@ -49,6 +49,12 @@
 ## Day 13 (06-04-20) : Cartpole through Reinforcement Learning 
 -  The main objective of cartpole is to balance a rod kept on a subject while completely moving the surface within 2.4 units from the centre.
 - Implemented MIT 6.S191 Lab 3 Cartpole with total reward of 200 under 1000 iterations
-## Day 14 (07-04-20) : GO with AI
-- Implemented a Reinforcement learning AI which plays GO and beats the CPU
-- GO being one the most complex games the model is trained over 10000 iterations and effective reward system.
+## Day 14 (07-04-20) : Pong with AI
+- Implemented a Reinforcement learning AI which plays PONG and beats the CPU
+- Pong being one the most complex games the model is trained over 2000 iterations and effective reward system.
+- Training took 6 hours on google colab. 
+- Further optimization required!
+## Day 15 (08-04-20) : Enchanced Pong 
+- Trained Pong over local setup which includes setting up tf GPU on NVDIA 1060ti 6GB.
+- Trained for over 10k iterations and beats the cpu with ease.
+
