@@ -57,4 +57,8 @@
 ## Day 15 (08-04-20) : Enchanced Pong 
 - Trained Pong over local setup which includes setting up tf GPU on NVDIA 1060ti 6GB.
 - Trained for over 10k iterations and beats the cpu with ease.
+## Day 16 (09-04-20) : Papers and Papers
+- Read about CGAN and its effectiveness on Face aging models.
+- Read about CartoonGAN: Generative Adversarial Networks for Photo Cartoonization.
+- Reads about Autoencoders and theirs differences with VAE.
 
