@@ -61,4 +61,6 @@
 - Read about CGAN and its effectiveness on Face aging models.
 - Read about CartoonGAN: Generative Adversarial Networks for Photo Cartoonization.
 - Reads about Autoencoders and theirs differences with VAE.
-
+## Day 17 (10-04-20) :Conditional Generative Adversarial Network
+- Trained a CGAN for MNIST for 40k iterations
+- Archieved discriminator accuracy of 72% and reduced Generator accuracy to 24%
