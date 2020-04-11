@@ -64,3 +64,7 @@
 ## Day 17 (10-04-20) :Conditional Generative Adversarial Network
 - Trained a CGAN for MNIST for 40k iterations
 - Archieved discriminator accuracy of 72% and reduced Generator accuracy to 24%
+## Day 18 (11-04-20) : Custom CGAN 
+- Customized model with better results
+- Improved accuracy with hyper parameter tuning and increased training iterations
+- Experimented with the weights 
