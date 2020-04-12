@@ -68,3 +68,7 @@
 - Customized model with better results
 - Improved accuracy with hyper parameter tuning and increased training iterations
 - Experimented with the weights 
+## Day 19 (12-04-20) : Basic Flutter 
+- Completed 6 sections of appbrewery course on flutter
+- Implemented basic card app with proper User interface
+
