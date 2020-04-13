@@ -71,4 +71,5 @@
 ## Day 19 (12-04-20) : Basic Flutter 
 - Completed 6 sections of appbrewery course on flutter
 - Implemented basic card app with proper User interface
+- Added multiple attributes and adjusted their dispay
 
