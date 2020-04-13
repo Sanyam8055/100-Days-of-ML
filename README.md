@@ -71,5 +71,12 @@
 ## Day 19 (12-04-20) : Basic Flutter 
 - Completed 6 sections of appbrewery course on flutter
 - Implemented basic card app with proper User interface
-- Added multiple attributes and adjusted their dispay
+- Added multiple attributes and adjusted their display.
+## Day 20 (13-04-20) : Flutter Realtime Object Detection using tflite
+- Flutter app for object detection through camera with accurate estimate of object and their pose.
+- Works with models such as ssd-mobilenet, yolo, mobilenet and poseNet.
+- Completed 2 sections of appbrewery course on flutter
+- Got some really interesting results.
+
+
 
