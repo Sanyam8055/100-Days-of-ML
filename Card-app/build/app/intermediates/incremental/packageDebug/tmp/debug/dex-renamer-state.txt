@@ -1,4 +1,0 @@
-#Tue Apr 14 02:30:09 IST 2020
-base.0=/home/sanyam/AndroidStudioProjects/card_app/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
