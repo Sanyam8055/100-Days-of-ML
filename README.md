@@ -77,6 +77,11 @@
 - Works with models such as ssd-mobilenet, yolo, mobilenet and poseNet.
 - Completed 2 sections of appbrewery course on flutter
 - Got some really interesting results.
+## Day 21 (14-04-20) : Flutter Dice App
+- Flutter app for dice using Flatbottons and generating random values with random library of dart.
+- User friendly and can be integrated in many games.
+- Completed 2 sections of appbrewery course on flutter
+
 
 
 
