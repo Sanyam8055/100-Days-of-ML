@@ -84,6 +84,10 @@
 - Flutter app for dice using Flatbottons and generating random values with random library of dart.
 - User friendly and can be integrated in many games.
 - Completed 2 sections of appbrewery course on flutter
+## Day 22 (15-04-20) : Mathematics for ML
+- Revised some concepts of numpy, pandas with Statistics.
+- Built an basic OCR for Image Detection which is going to be used for Document Detection.
+- Went of some major concepts of VAE in Deep learning through CMU Introduction to Deep Learning 12.
 
 
 
