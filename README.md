@@ -17,7 +17,10 @@
 ## Day 4 (28-03-20) : Binary Person Classifier 
 - Extracts important featuers from different datasets
 - Identifies on a large variety of user-defined dataset
-## Day 5 (29-03-20) : Keras Implementation of Custom Loss Function
+## Day 5 (29-03-20) : Mathematics for ML
+- Studied Gaussien Naive Bayes theorem 
+- Some concepts of sampling including Random Sampling, Systematic Sampling and Stratified Sampling.
+- Statistic Strategy including Descriptive and Inferential.
 
 ## Day 6 (30-03-20) : Keras Implementation of Custom Layer
 - Custom layer with lecum_uniform and selu activation
