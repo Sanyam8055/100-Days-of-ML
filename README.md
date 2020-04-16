@@ -88,6 +88,10 @@
 - Revised some concepts of numpy, pandas with Statistics.
 - Built an basic OCR for Image Detection which is going to be used for Document Detection.
 - Went of some major concepts of VAE in Deep learning through CMU Introduction to Deep Learning 12.
+## Day 23 (16-04-20) :Camera/Gallery Plugin Flutter
+- Built a flutter app that uses camera or gallery image as input.
+- Displays the selected real time or previously clicked image on the home page.
+- Further going to add some filters on the image using flutter ML toolkit.
 
 
 
