@@ -92,7 +92,10 @@
 - Built a flutter app that uses camera or gallery image as input.
 - Displays the selected real time or previously clicked image on the home page.
 - Further going to add some filters on the image using flutter ML toolkit.
-
+## Day 24 (17-04-20) : Revision of Machine Learning 
+- Completed one aasignment of SHALA2020 with begineers testing code of numpy,pandas and matplot.
+- Filled the missing values with mean of the columns and normalized some columns as required.
+- Performs some operations and displayed the results of sin functions using matplot.pyplot
 
 
 
