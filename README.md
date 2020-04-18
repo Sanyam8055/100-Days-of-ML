@@ -96,6 +96,9 @@
 - Completed one aasignment of SHALA2020 with begineers testing code of numpy,pandas and matplot.
 - Filled the missing values with mean of the columns and normalized some columns as required.
 - Performs some operations and displayed the results of sin functions using matplot.pyplot
-
+## Day 25 (18-04-20) : Logistic Regression with a Neural Network mindset
+- Completed 2 Weeks of Neural Networks and Deep Learnign course by Deep Learning.AI
+- Completed the first programming assignment of Implementing A neural network for Logistic Regression on a Cat dataset.
+- Improved the model and successfully got an accuracy of 80%
 
 
