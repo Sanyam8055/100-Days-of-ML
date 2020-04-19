@@ -93,12 +93,14 @@
 - Displays the selected real time or previously clicked image on the home page.
 - Further going to add some filters on the image using flutter ML toolkit.
 ## Day 24 (17-04-20) : Revision of Machine Learning 
-- Completed one aasignment of SHALA2020 with begineers testing code of numpy,pandas and matplot.
+- Completed one assignment of SHALA2020 with begineers testing code of numpy,pandas and matplot.
 - Filled the missing values with mean of the columns and normalized some columns as required.
 - Performs some operations and displayed the results of sin functions using matplot.pyplot
 ## Day 25 (18-04-20) : Logistic Regression with a Neural Network mindset
 - Completed 2 Weeks of Neural Networks and Deep Learnign course by Deep Learning.AI
 - Completed the first programming assignment of Implementing A neural network for Logistic Regression on a Cat dataset.
 - Improved the model and successfully got an accuracy of 80%
-
+## Day 26 (19-04-20) : SHALA2020 ASSt on Data Science
+- Completed one assignment of SHALA2020 with begineers testing code of pandas and numpy on movie dataset and train dataset of people who left an org after undergoing changes.
+- Done all the Data Preprosseing and Visualization on both the datasets.
 
