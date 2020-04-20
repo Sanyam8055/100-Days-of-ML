@@ -103,4 +103,7 @@
 ## Day 26 (19-04-20) : SHALA2020 ASSt on Data Science
 - Completed one assignment of SHALA2020 with begineers testing code of pandas and numpy on movie dataset and train dataset of people who left an org after undergoing changes.
 - Done all the Data Preprosseing and Visualization on both the datasets.
+## Day 27 (20-04-20) : Planer Data Classification
+- Completed week 3 of Deep learning.AI with a programming assignment on Forward and Backward Propogation of Neutral Network
+- Implemented a Neural Network with Relu activation followed by tanh and signmoid on flower dataset.  
 
