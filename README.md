@@ -100,7 +100,7 @@
 - Completed 2 Weeks of Neural Networks and Deep Learnign course by Deep Learning.AI
 - Completed the first programming assignment of Implementing A neural network for Logistic Regression on a Cat dataset.
 - Improved the model and successfully got an accuracy of 80%
-## Day 26 (19-04-20) : SHALA2020 ASSt on Data Science
+## Day 26 (19-04-20) : SHALA2020 ASST on Data Science
 - Completed one assignment of SHALA2020 with begineers testing code of pandas and numpy on movie dataset and train dataset of people who left an org after undergoing changes.
 - Done all the Data Preprosseing and Visualization on both the datasets.
 ## Day 27 (20-04-20) : Planer Data Classification
@@ -110,4 +110,8 @@
 - Completed Neural Network and Deep Learning course of deeplearning.ai. 
 - Implemented grader functions such as linear_forward_activation, linear_backward_activations to update the parameters after every desent.
 - Used these fucntions to train a Binary Classifier of Cats in separate notebook.
-
+## Day 29 (22-04-20) : Data Visualisations
+- Learned implementation of histogram, stacked graphs, heatmap.
+- Implemented a mask on the heatmap to remove duplicate values on the heatmap. 
+- Implemented the probability distributions in seaborn and matplotlib
+- Completed the assignment exercise for visualisation given by the IITB course
