@@ -116,8 +116,12 @@
 - Implemented the probability distributions in seaborn and matplotlib
 - Completed the assignment exercise for visualisation given by the IITB course
 ## Day 30 (23-04-20) : Improving Deep Neural Networks
-- Completed 3 programming asst in Deeplearning.ai course.
 -  Implemented Initialization, Regularization and Gradient Checking Checking notebooks.
 - Worked on Random Initialization, He Initialization and Zeros Initialzation and found He Initialization fetching the best Results.  
 - Tried different Regularizations Techniques and concluded with Dropout as one  of the best Technique fetching 98% Test Accuracy.
-- Performed and Verified Gradients Testing while performing forward and backward propogation 
+- Performed and Verified Gradients Testing while performing forward and backward propogation
+- Completed 3 programming asst in Deeplearning.ai course. 
+## Day 31 (24-04-20) : Optimization Methods
+-  Tried Gradient Desent, Momentum and Adam Optimization aproaches.
+- Implemented all of them on minibatches to get better results.
+- Adam Fetched 94% Accuracy wheras Momentum and Gradient Desecent worked out with ~80% accuracy.
