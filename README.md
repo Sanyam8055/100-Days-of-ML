@@ -105,53 +105,79 @@
 - Completed 6 sections of appbrewery course on flutter
 - Implemented basic card app with proper User interface
 - Added multiple attributes and adjusted their display.
+<img src="Images/f1.jpeg" width="30%" height="10%">
+
 ## Day 20 (13-04-20) : Flutter Realtime Object Detection using tflite
 - Flutter app for object detection through camera with accurate estimate of object and their pose.
 - Works with models such as ssd-mobilenet, yolo, mobilenet and poseNet.
 - Completed 2 sections of appbrewery course on flutter
 - Got some really interesting results.
+<img src="Images/f2.jpeg" width="30%" height="10%">
+
 ## Day 21 (14-04-20) : Flutter Dice App
 - Flutter app for dice using Flatbottons and generating random values with random library of dart.
 - User friendly and can be integrated in many games.
 - Completed 2 sections of appbrewery course on flutter
+![](Images/f3.gif)
+
 ## Day 22 (15-04-20) : Mathematics for ML
 - Revised some concepts of numpy, pandas with Statistics.
 - Built an basic OCR for Image Detection which is going to be used for Document Detection.
-- Went of some major concepts of VAE in Deep learning through CMU Introduction to Deep Learning 12.
+- Some major concepts of VAE in Deep learning through CMU Introduction to Deep Learning 12.
 ## Day 23 (16-04-20) :Camera/Gallery Plugin Flutter
 - Built a flutter app that uses camera or gallery image as input.
 - Displays the selected real time or previously clicked image on the home page.
 - Further going to add some filters on the image using flutter ML toolkit.
+<img src="Images/f4.jpeg" width="30%" height="10%">
+
 ## Day 24 (17-04-20) : Revision of Machine Learning 
 - Completed one assignment of SHALA2020 with begineers testing code of numpy,pandas and matplot.
 - Filled the missing values with mean of the columns and normalized some columns as required.
 - Performs some operations and displayed the results of sin functions using matplot.pyplot
+![](Images/s1.png)
+- Model Link ~ https://colab.research.google.com/github/Sanyam8055/100-Days-of-ML/blob/master/Shala_2020_DS.ipynb
 ## Day 25 (18-04-20) : Logistic Regression with a Neural Network mindset
 - Completed 2 Weeks of Neural Networks and Deep Learnign course by Deep Learning.AI
 - Completed the first programming assignment of Implementing A neural network for Logistic Regression on a Cat dataset.
 - Improved the model and successfully got an accuracy of 80%
+![](Images/lr1.png)
+- Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Logistic_Regression_with_a_Neural_Network_mindset_v6a.ipynb
 ## Day 26 (19-04-20) : SHALA2020 ASST on Data Science
 - Completed one assignment of SHALA2020 with begineers testing code of pandas and numpy on movie dataset and train dataset of people who left an org after undergoing changes.
 - Done all the Data Preprosseing and Visualization on both the datasets.
+![](Images/s2.png)
+- Model Link ~ https://colab.research.google.com/github/Sanyam8055/100-Days-of-ML/blob/master/DS_L2_17_Apr_Assignment_2_DS.ipynb
 ## Day 27 (20-04-20) : Planer Data Classification
 - Completed week 3rd of Deep learning.AI with a programming assignment on Forward and Backward Propogation of Neutral Network
 - Implemented a Neural Network with Relu activation followed by tanh and signmoid on flower dataset.  
+![](Images/lr2.png)
+- Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Planar_data_classification_with_onehidden_layer_v6c.ipynb
 ## Day 28 (21-04-20) : Deep Neural Network Application
 - Completed Neural Network and Deep Learning course of deeplearning.ai. 
 - Implemented grader functions such as linear_forward_activation, linear_backward_activations to update the parameters after every desent.
 - Used these fucntions to train a Binary Classifier of Cats in separate notebook.
+![](Images/lr3.png)
+- Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Building_your_Deep_Neural_Network_Step_by_Step_v8a.ipynb
 ## Day 29 (22-04-20) : Data Visualisations
 - Learned implementation of histogram, stacked graphs, heatmap.
 - Implemented a mask on the heatmap to remove duplicate values on the heatmap. 
 - Implemented the probability distributions in seaborn and matplotlib
 - Completed the assignment exercise for visualisation given by the IITB course
+![](Images/s3.png)
+- Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/DS_L3_20_April_Assignment_3.ipynb
 ## Day 30 (23-04-20) : Improving Deep Neural Networks
 -  Implemented Initialization, Regularization and Gradient Checking Checking notebooks.
 - Worked on Random Initialization, He Initialization and Zeros Initialzation and found He Initialization fetching the best Results.  
 - Tried different Regularizations Techniques and concluded with Dropout as one  of the best Technique fetching 98% Test Accuracy.
 - Performed and Verified Gradients Testing while performing forward and backward propogation
-- Completed 3 programming asst in Deeplearning.ai course. 
+- Completed 3 programming asst in Deeplearning.ai course.
+![](Images/h1.png)
+- Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Initialization.ipynb
+- Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Regularization_v2a.ipynb
+- Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Gradient%2BChecking%2Bv1.ipynb
 ## Day 31 (24-04-20) : Optimization Methods
 -  Tried Gradient Desent, Momentum and Adam Optimization aproaches.
 - Implemented all of them on minibatches to get better results.
 - Adam Fetched 94% Accuracy wheras Momentum and Gradient Desecent worked out with ~80% accuracy.
+![](Images/h2.png)
+- Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Optimization_methods_v1b.ipynb
