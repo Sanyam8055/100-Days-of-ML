@@ -6,7 +6,7 @@
 - Tweaked the model by feature scaling and hyperparameter tuning.
 - Minimized overfitting by adding image augmentation through Image Data Generator.
 - Achieved an accuracy of 90 percent without using any dense layers.
-![Accuracy vs Epoch](Images/downloads.png)
+![Accuracy vs Epoch](Images/c.png)
 - Model Link ~ https://colab.research.google.com/github/Sanyam8055/100-Days-of-ML/blob/master/catsvsdogs.ipynb
 ## Day 2 (26-03-20) : Multi-class Classification
 - Implemented a Resnet20 for Multi-class classification on CIFAR100 dataset.
@@ -16,12 +16,12 @@
 - Runs on custom Image with an custom filter
 - Flexible to iterate over time 
 - Tweaked loss function 
-![](Images/downloads(1).png)
+![](Images/a.png)
 - Model Link ~ https://colab.research.google.com/drive/12cuuIp1JrTiuqhqS2YY6eRwZzClyN1Bg
 ## Day 4 (28-03-20) : Binary Person Classifier 
 - Extracts important featuers from different datasets
 - Identifies on a large variety of user-defined dataset
-![](Images/abc.jpeg)
+![](Images/abc.png)
 - Model Link ~https://colab.research.google.com/drive/12cuuIp1JrTiuqhqS2YY6eRwZzClyN1Bg
 ## Day 5 (29-03-20) : Mathematics for ML
 - Studied Gaussien Naive Bayes theorem 
@@ -36,13 +36,14 @@
 ## Day 7 (31-03-20) : Custom model for cifar10
 - Model achieves an accuracy of 83 percent under 50 epochs
 - Model is built up of convolutional layers with any involvement of dense layers.
-![](Images/downloads(2).png)
+![](Images/b.png)
 - Model Link ~ https://colab.research.google.com/drive/1TJml50aCS-wSTebExg-TvgOXFWOhHP0z
 ## Day 8 (01-04-20) : Music Generation using RNN
 - Preprocessed the songs into vectorized text for the model
 - Build a Recurrent neural network with LSTM and dense 
 - Customized the loss function for the model
-
+- Custom Song Link ~ [](Images/hh)
+- Model Link ~ https://colab.research.google.com/github/Sanyam8055/100-Days-of-ML/blob/master/Music_Generator.ipynb
 ## Day 9 (02-04-20) : Customized Music Generation 
 - Customized the optimizer by hyperparameter tunning followed by tweaking the tape gradients 
 - Tweaked the batch size,  changing the starting_string and altering the rnn_units
