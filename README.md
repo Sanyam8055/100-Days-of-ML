@@ -5,8 +5,8 @@
 - Implement a Deep Neural Network for Classification of Cats and Dogs.
 - Tweaked the model by feature scaling and hyperparameter tuning.
 - Minimized overfitting by adding image augmentation through Image Data Generator.
-- Achieved an accuracy of 90 percent without using any dense layers.
-![](Images/c.png)
+- Achieved an accuracy of 90 percent without using any dense layers in the network.
+![](Images/c.png) 
 - Model Link ~ https://colab.research.google.com/github/Sanyam8055/100-Days-of-ML/blob/master/catsvsdogs.ipynb
 ## Day 2 (26-03-20) : Multi-class Classification
 - Implemented a Resnet20 for Multi-class classification on CIFAR100 dataset.
@@ -43,35 +43,46 @@
 - Preprocessed the songs into vectorized text for the model
 - Build a Recurrent neural network with LSTM and dense 
 - Customized the loss function for the model
-- Custom Song Link ~ [](Images/hh)
-- Model Link ~ https://colab.research.google.com/github/Sanyam8055/100-Days-of-ML/blob/master/Music_Generator.ipynb
+- Custom Song Link ~ https://drive.google.com/file/d/1NpjvOh9Kk9JqfEcO_hYsiSvGyxSPb0Rw/view?usp=sharing
 ## Day 9 (02-04-20) : Customized Music Generation 
 - Customized the optimizer by hyperparameter tunning followed by tweaking the tape gradients 
 - Tweaked the batch size,  changing the starting_string and altering the rnn_units
 - Reduced the loss from scalar 4.4 to 0.5
+![](Images/mg.png)
+- Model Link ~ https://colab.research.google.com/github/Sanyam8055/100-Days-of-ML/blob/master/Music_Generator.ipynb
 ## Day 10 (03-04-20) : CNN on MNIST dataset
 - Implemented a convolution neural network on MNIST handwritting dataset
 - Using tape gradients concluded with the backpropogation
 - Sidewise compared the cnn_model with full connected model
+![](Images/mnist.png)
+- Model Link ~ https://colab.research.google.com/github/Sanyam8055/100-Days-of-ML/blob/master/MNIST.ipynb
 ## Day 11 (04-04-20) : Variational Autoencoder 
 - Build a facial detection model that learns form latent variables underlying face image dataset
 - Adaptively re-sample the training data
-- Mtigating any biases that may be present in order to train a debiased model
+- Mitigating any biases that may be present in order to train a debiased model
+![](Images/vae.png)
 ## Day 12 (05-04-20) : Optimized Variational Autoencoder 
 - Tweaked the model while reducing the learning rate.
 - Trained the model for longer num_cycles
 - Better predictions on test dataset with optimum probality without any bias 
+![](Images/cvae.png)
+- Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Customized_VAE.ipynb
 ## Day 13 (06-04-20) : Cartpole through Reinforcement Learning 
 -  The main objective of cartpole is to balance a rod kept on a subject while completely moving the surface within 2.4 units from the centre.
 - Implemented MIT 6.S191 Lab 3 Cartpole with total reward of 200 under 1000 iterations
+![](Images/cp.png)
+- Model Link ~ https://colab.research.google.com/github/aamini/introtodeeplearning/blob/master/lab3/RL.ipynb
 ## Day 14 (07-04-20) : Pong with AI
 - Implemented a Reinforcement learning AI which plays PONG and beats the CPU
 - Pong being one the most complex games the model is trained over 2000 iterations and effective reward system.
 - Training took 6 hours on google colab. 
 - Further optimization required!
+![](Images/pa.png)
 ## Day 15 (08-04-20) : Enchanced Pong 
 - Trained Pong over local setup which includes setting up tf GPU on NVDIA 1060ti 6GB.
 - Trained for over 10k iterations and beats the cpu with ease.
+![](Images/ca.gif)
+- Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/untitled1.py
 ## Day 16 (09-04-20) : Papers and Papers
 - Read about CGAN and its effectiveness on Face aging models.
 - Read about CartoonGAN: Generative Adversarial Networks for Photo Cartoonization.
@@ -79,10 +90,17 @@
 ## Day 17 (10-04-20) :Conditional Generative Adversarial Network
 - Trained a CGAN for MNIST for 40k iterations
 - Archieved discriminator accuracy of 72% and reduced Generator accuracy to 24%
+- cgan_mnist  labels for generated images:  [0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5]
+![](Images/mm.png)
 ## Day 18 (11-04-20) : Custom CGAN 
 - Customized model with better results
 - Improved accuracy with hyper parameter tuning and increased training iterations
 - Experimented with the weights 
+[discriminator loss: 0.461816, acc: 0.734375] [adversarial loss: 1.522949, acc: 0.375000]
+[discriminator loss: 0.475403, acc: 0.796875] [adversarial loss: 1.922817, acc: 0.156250]
+[discriminator loss: 0.500307, acc: 0.765625] [adversarial loss: 2.060154, acc: 0.156250]
+[discriminator loss: 0.544482, acc: 0.750000] [adversarial loss: 1.687811, acc: 0.187500]
+- Model Link ~ https://colab.research.google.com/github/Sanyam8055/100-Days-of-ML/blob/master/Custom_cgan.ipynb 
 ## Day 19 (12-04-20) : Basic Flutter 
 - Completed 6 sections of appbrewery course on flutter
 - Implemented basic card app with proper User interface
