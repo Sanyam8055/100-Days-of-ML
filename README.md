@@ -89,8 +89,8 @@
 - Reads about Autoencoders and theirs differences with VAE.
 ## Day 17 (10-04-20) :Conditional Generative Adversarial Network
 - Trained a CGAN for MNIST for 40k iterations
-- Archieved discriminator accuracy of 72% and reduced Generator accuracy to 24%
-- cgan_mnist  labels for generated images:  [0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5]<br/>
+- Archieved discriminator accuracy of 72% and reduced Generator accuracy to 24%<br/>
+- cgan_mnist labels for generated images: [0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5]<br/>
 ![](Images/mm.png)
 ## Day 18 (11-04-20) : Custom CGAN 
 - Customized model with better results
@@ -156,7 +156,7 @@
 - Completed Neural Network and Deep Learning course of deeplearning.ai. 
 - Implemented grader functions such as linear_forward_activation, linear_backward_activations to update the parameters after every desent.
 - Used these fucntions to train a Binary Classifier of Cats in separate notebook.<br/>
-![](Images/lr3.png)
+<img src="Images/ml4.jpg" width="70%" height="70%"><br/>
 - Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Building_your_Deep_Neural_Network_Step_by_Step_v8a.ipynb
 ## Day 29 (22-04-20) : Data Visualisations
 - Learned implementation of histogram, stacked graphs, heatmap.
@@ -181,3 +181,17 @@
 - Adam Fetched 94% Accuracy wheras Momentum and Gradient Desecent worked out with ~80% accuracy.<br/>
 ![](Images/h2.png)
 - Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Optimization_methods_v1b.ipynb
+## Day 32 (25-04-20) : ML Statistics
+-  Studied Probabiltity Density Distribution and implement pdf on exponential function.
+- Defined the likelihood and log-likehood of the two samples with lambda=1 and lambda=2
+- Calculated the T statistic using the degrees of freedom 
+- Compared the critical value with the T statistics and evaluated whether null Hypothesis is accepted.<br/>
+![](Images/ml3.png)
+- Model Link ~ https://colab.research.google.com/drive/1uaomeRGt1pv9eYsgmRDQoKg84h4oejNX
+## Day 33 (26-04-20) : Attrition for the employees
+-  Implemented a model to predict the attrition of Employees using Random Forest Classifier, XG Boost, Gradient Boosting.
+- Compared their results,f1 score, percision value and ROC curve for all the three classifiers.
+- Gradient Boost works best on the given dataset with 86% test accuracy whereas RFC gives 77% and XG Boost gives 84%.
+- Here is the ROC curve for Gradient Boost<br/>
+![](Images/ml1.png)
+- Model Link ~ https://colab.research.google.com/drive/1ouqdnDJaf2dckf7SRbeBUBYeesJszXZ3
