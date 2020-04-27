@@ -195,3 +195,9 @@
 - Here is the ROC curve for Gradient Boost<br/>
 ![](Images/ml1.png)
 - Model Link ~ https://colab.research.google.com/drive/1ouqdnDJaf2dckf7SRbeBUBYeesJszXZ3
+## Day 34 (27-04-20) : Worked on Sign Dataset with tensorflow
+-  Implemented an Neural Network for prediction of hand sign from 0 to 5
+- Improved the model with Optimization, BatchNormalisation and regularisation with dropouts
+- Complete the course on Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization<br/>
+<img src="Images/ml5.jpg" width="70%" height="70%"><br/>
+
