@@ -200,4 +200,7 @@
 - Improved the model with Optimization, BatchNormalisation and regularisation with dropouts
 - Complete the course on Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization<br/>
 <img src="Images/ml5.jpg" width="70%" height="70%"><br/>
-
+## Day 35 (28-04-20) : Structuring Machine Learning Projects
+-  Complete the course 'Structuring Machine Learning Projects' by Andrew NG under depplearning.ai.
+- The course consists of 2 Week lectures followed by quiz which tests the approach one needs to go through while implementing the model, studying the overfitting problem, judging variance and bias under training and testing with their solutions<br/>
+<img src="Images/ml6.jpg" width="70%" height="70%"><br/>
