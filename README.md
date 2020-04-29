@@ -204,3 +204,12 @@
 -  Complete the course 'Structuring Machine Learning Projects' by Andrew NG under depplearning.ai.
 - The course consists of 2 Week lectures followed by quiz which tests the approach one needs to go through while implementing the model, studying the overfitting problem, judging variance and bias under training and testing with their solutions<br/>
 <img src="Images/ml6.jpg" width="70%" height="70%"><br/>
+## Day 36 (29-04-20) : Decision Trees on Titanic Dataset
+- Preprocessed the data while dealing with missing values under Age, Cabin and Embarked. Label encoded some of the values then procceded with the model 
+- Implemented a model to predict the Survival of a person using Random Forest Classifier, XG Boost, Gradient Boosting,Decision Tree Classifier and Logistic Regression.
+- Compared their results,f1 score, percision value and ROC curve for all the three classifiers.
+- XG Boost works best on the given dataset with 87% test accuracy whereas RFC gives 83% and Gradient Boost gives 83%.
+Decision Tree classifier gives 83 and LR gaves 82.
+- The Ruc of the dataset is 88.25 and XG Boost works pretty close.
+- Here is the ROC curve for XG Boost<br/>
+![](Images/ml9.png)
