@@ -213,3 +213,14 @@ Decision Tree classifier gives 83 and LR gaves 82.
 - The Ruc of the dataset is 88.25 and XG Boost works pretty close.
 - Here is the ROC curve for XG Boost<br/>
 ![](Images/ml9.png)
+## Day 37 (30-04-20) : Convolutional Neural Networks: Step by Step
+- Completed Week 1 of Convolutional Neural Networks by Andrew NG
+- Worked on implementing Convolution Network networks from scratch which including writing the function of convolution layers, Pooling Layers, padding functions for forward and backward propogation.
+- Worked on the same application through tensorflow which is one the best framework fo implementing models providing the required libraries and already implemented functions to save time implementing model from scrath.<br/>
+![](Images/ml7.png)
+![](Images/ml8.png)<br/>
+## Day 38 (01-05-20) : Residual Networks
+- Completed Week 2 of Convolutional Neural Networks by Andrew NG
+- Implemented Resnet50 Architecture by buliding convolutional blocks and identify blocks and trained the model on Hand-sign dataset.
+- Model still needs some optimization and tunning to run properly on actual images with good accuracy.<br/>
+![](Images/ml10.png)
