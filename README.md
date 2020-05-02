@@ -229,9 +229,10 @@ Decision Tree classifier gives 83 and LR gaves 82.
 - Model still needs some optimization and tunning to run properly on actual images with good accuracy.<br/>
 ![](Images/ml10.png)<br/>
 - Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Residual_Networks_v2a%20(1).ipynb
-## Day 39 (01-05-20) : Autonomous_driving_application_Car_detection
+## Day 39 (02-05-20) : Autonomous_driving_application_Car_detection
 - Studied the YOLO algorithm and implemented yolo_filter_boxe, yolo_non_max_supression.
 - Implemented YOLO v3 model functions from scratch for detection of cars, buses and 78 other classes. 
 - Completed Week 3 of Convolutional Neural Networks by Andrew NG<br/>
 ![](Images/ml11.png)<br/>
+- Model Link ~ https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Autonomous_driving_application_Car_detection_v3a.ipynb
 
