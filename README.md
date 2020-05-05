@@ -246,4 +246,8 @@ Decision Tree classifier gives 83 and LR gaves 82.
 - Calculated triplet loss function for verfication purpose.
 - Completed Convolutional Network Course by Andrew NG .<br/>
 <img src="Images/ml13.jpg" width="70%" height="70%"><br/>
-
+- Model Link ~https://github.com/Sanyam8055/100-Days-of-ML/blob/master/Face_Recognition_v3a%20(1).ipynb
+## Day 42 (05-05-20) : Papers on Pose Detection and Sentiment Analysis 
+-  Read some papers on Implementing Pose detection with tensorflow Framework and TensorRT support.
+- Pose Detection using models such as Random Forest and Logistic Regression
+- Looking forward implmenting them. 
